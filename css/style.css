@@ -14,6 +14,10 @@
     --olive: #8D6A00;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -21,13 +25,19 @@ body {
     font-size: medium;
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
+    margin: 0;
+    min-height: 100%;
 }
 
 header {
-    background-color: var(--sapphire);
+    background-image: linear-gradient(to bottom, var(--sapphire), var(--chetwode-blue));
     color: var(--white);
+    padding: 20px 50px 75px;
 }
 
 footer {
-    background-color: var(--midnight-blue);
+    background-image: linear-gradient(to top, var(--midnight-blue), var(--chetwode-blue));
+    color: var(--white);
+    text-align: center;
+    padding: 75px 50px 20px;
 }

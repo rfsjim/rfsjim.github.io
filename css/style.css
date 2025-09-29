@@ -2,6 +2,7 @@
 
 :root {
     --white: #FFFFFF;
+    --black: #000;
     --chetwode-blue: #6666BD;
     --blue-gem: #4545A8;
     --cerulean-blue: #2828A0;
@@ -12,6 +13,15 @@
     --gold-tips: #E5B21B;
     --dark-goldenrod: #B48A0C;
     --olive: #8D6A00;
+    --lavender-blue: #CFE2FF;
+    --columbia-blue: #9DC5FF;
+    --maya-blue: #72AAFD;
+    --lemon-chiffon: #FFF4CA;
+    --cream-brulee: #FFE993;
+    --dandelion: #FFE064;
+    --bisque: #FFDFCA;
+    --romantic: #FFBE93;
+    --atomic-tangerine: #FFA164;
 }
 
 html {
@@ -21,7 +31,7 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    background-color: var(--chetwode-blue);
+    background-color: var(--lavender-blue);
     font-size: medium;
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
@@ -30,14 +40,21 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--sapphire), var(--chetwode-blue));
+    background-image: linear-gradient(to bottom, var(--maya-blue), var(--lavender-blue));
     color: var(--white);
     padding: 20px 50px 75px;
+    text-align: center;
 }
 
 footer {
-    background-image: linear-gradient(to top, var(--midnight-blue), var(--chetwode-blue));
-    color: var(--white);
     text-align: center;
     padding: 75px 50px 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 100px;
 }

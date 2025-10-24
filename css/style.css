@@ -58,3 +58,16 @@ main {
     gap: 10px;
     padding: 20px 100px;
 }
+
+section {
+    text-align: center;
+}
+
+section h2 {
+    padding-bottom: 1dvh;
+}
+
+section ul li {
+    list-style: none;
+    padding-bottom: 1dvh;
+}
